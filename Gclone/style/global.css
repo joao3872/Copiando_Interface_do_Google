@@ -1,0 +1,23 @@
+* {
+				margin: 0;
+				text-decoration: none;
+				box-sizing: border-box;
+				padding: 0;
+				border: none;
+}
+
+html {
+				--transparent: transparent;
+				--white: #fff;
+				--grey-claro: #f1f1f1;
+				--grey: #808080;
+				--grey-escuro: #686868;
+				--cinza-escuro: #75758c;
+				--black: #000;
+				
+				--blue-claro: #4f78ec;
+				--blue-escuro: #476cd4;
+				--emerald-green: #3cb371;
+				--pink-escuro: #ff6781;
+				--purple-escuro: #7300cd;
+}
