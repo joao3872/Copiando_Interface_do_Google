@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+				<meta charset="UTF-8">
+				<title>Gclone</title>
+				<link rel="stylesheet" href="clone_google.css">
+				<link rel="stylesheet" href="global.css">
+				<link rel="stylesheet" href="clone_google_imagens.css">
+				<script src="clone_google.js"></script>
+				<script src="modals.js"></script>
+				
+				<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+				<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+				
+				<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+				
+				<script>
+								$(document).ready(function(){
+												$(".topnav .apps").click(function(){
+																$(".container_apps").toggleClass("abrir_apps")
+												})
+
+												$(".topnav .conta").click(function(){
+																$(".container_login").toggleClass("abrir_login")
+												});
+												
+												$(".container_trocar_foto .opcoes").click(function(){
+																$(".opcoes_foto").toggleClass("abrir_opcoes")
+												});
+								})
+				</script>
+</head>
+<body>
+				<header>
+								<section class="topnav">
+												<span onclick="abrirNav()"><i class="fas fa-bars"></i></span>
+												<a href="clone_google.html"><strong>TODAS</strong></a>
+												<a href="clone_google_imagens.html" id="active"><strong>IMAGENS</strong></a>
+												
+												<div class="right_menu">
+																<span id="apps" class="material-icons-outlined apps">apps
+																</span>
+																		<div class="fundo_conta">
+																  <span class="conta">J</span>
+												</div>
+								</section>
+								
+								
+								<section class="fundo_sidenav" id="side_Nav">
+										<div class="invisivel" onclick="fecharNav()"></div>
+										
+										
+										<div class="sidenav" onmouseleave="fecharNav()">
+												<img src="logo-gclone.png" class="logo" alt="Logo" onclick="fecharNav()" />
+														<a href="clone_google.html">
+																  <span class="material-icons">
+																						home
+																  </span>
+																		<span class="text_link">
+																						Página inicial
+																		</span>
+														</a>
+												  <a href="#">
+															  	<span class="material-icons-outlined">
+																		    history
+															  	</span>
+																  <span class="text_link">
+																						Histórico de pesquisa
+																		</span>
+														</a>
+										  		<a href="#">
+															  	<span class="material-icons">
+																		    bookmarks
+															  	</span>
+															  	<span class="text_link">
+																						Coleções
+																  </span>
+										  		</a>
+										  		<a href="#">
+																  <span class="material-icons-outlined">
+																						manage_search
+																		</span>
+																		<span class="text_link">
+																						Pesquisas off-line
+																		</span>
+										  		</a>
+										  		<hr>
+										  		<a href="#">
+																  <span class="material-icons">
+																		    settings
+															  	</span>
+															  	<span class="text_link">
+																						Configurações
+																		</span>
+										  		</a>
+										  		<a href="#">
+										  		    <span>
+										  		  						<img src="icon_user-segurity.png" class="img2" />
+										  			  	</span>
+										  			  	<span class="text_link">
+										  										Seus dados na Pesquisa
+										  						</span>
+										  		</a>
+										  		<a href="#">
+																  <span class="material-icons-outlined">
+																		    explicit
+																  </span>
+																  <span class="text_link2">
+																						Ocultar resultados com conteúdo explícito: desativado
+																		</span>
+										  		</a>
+										  		<a href="#">
+										  		  		<span>
+										  										<img src="icon-pesquisa.png" class="img3" />
+										  			  	</span>
+										  			  	<span class="text_link3">
+										  										Como funciona a Pesquisa
+										  						</span>
+										  		</a>
+										  		<a href="#">
+															  	<span class="material-icons-outlined">
+																						help
+												  				</span>
+												  				<span class="text_link">
+																						Ajuda
+																		</span>
+										  		</a>
+										  		<a href="#" onclick="abrirFeedback()">
+															  	<span class="material-icons">
+																		    feedback
+																  </span>
+																  <span class="text_link">
+																						Enviar feedback
+																		</span>
+										  		</a>
+										</div>
+								</section>
+								
+								
+								<section class="container_apps">
+										<section class="fundo_scroll">
+												
+												<div class="parte1">
+																<div class="imagens">
+																				<a href="#">
+																								<img src="conta.png" class="conta" alt="conta" />
+																								<p>Conta</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="google.png" alt="pesquisa" />
+																								<p>Pesquisa</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="maps.png" alt="maps" />
+																								<p>Maps</p>
+																			 </a>
+																</div>
+												</div>
+												
+												<div class="parte1">
+																<div class="imagens">
+																				<a href="#">
+																								<img src="youtube.png" class="youtube" alt="Youtube" />
+																								<p>Youtube</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="play_store.png" class="play" alt="play" />
+																								<p>Play</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="noticias.png" alt="notícias" />
+																								<p>Notícias</p>
+																			 </a>
+																</div>
+												</div>
+												
+												<div class="parte1">
+																<div class="imagens">
+																				<a href="#">
+																								<img src="gmail.png" class="gmail" alt="Gmail" />
+																								<p>Gmail</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="meet.png" class="meet" alt="meet" />
+																								<p>Meet</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="chat.png" alt="chat" />
+																								<p>Chat</p>
+																			 </a>
+																</div>
+												</div>
+												
+												<div class="parte1">
+																<div class="imagens">
+																				<a href="#">
+																								<img src="contatos.png" alt="contatos" />
+																								<p>Contatos</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="drive.png" class="drive" alt="drive" />
+																								<p>Drive</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="agenda.png" alt="agenda" />
+																								<p>Agenda</p>
+																			 </a>
+																</div>
+												</div>
+												
+												<div class="parte1">
+																<div class="imagens">
+																				<a href="#">
+																								<img src="google_tradutor.png" alt="tradutor" />
+																								<p>Tradutor</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="google_fotos.png" alt="fotos" />
+																								<p>Fotos</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="google_duo.png" alt="Duo" />
+																								<p>Duo</p>
+																			 </a>
+																</div>
+												</div>
+												
+												<div class="parte1">
+																<div class="imagens">
+																				<a href="#">
+																								<img src="shopping.png" class="shopping" alt="shopping" />
+																								<p>Shopping</p>
+																				</a>
+																</div>
+												</div>
+												<hr>
+												
+												<div class="parte2">
+																<div class="linhas">
+																				<a href="#">
+																								<img src="documentos.png" alt="documentos" />
+																								<p class="text_oculto">Documento s</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="planilhas.png" class="planilhas" alt="planilhas" />
+																								<p>Planilhas</p>
+													 						</a>
+													 						
+													 						<a href="#">
+																								<img src="apresentacao.png" class="apresentacao" alt="apresentações" />
+																								<p class="text_oculto">Apresentaç ões</p>
+													 						</a>
+																</div>
+																</div>
+																
+																<div class="parte2">
+																<div class="linhas">
+																				<a href="#" id="livros">
+																								<img src="livros.png" alt="livros" />
+																								<p>Livros</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="blogger.png" class="blogger" alt="blogger" />
+																								<p>Blogger</p>
+													 						</a>
+													 						
+													 						<a href="#">
+																								<img src="hangouts.png" alt="hangouts" />
+																								<p>Hangouts</p>
+													 						</a>
+																</div>
+																</div>
+																
+																<div class="parte2">
+																<div class="linhas">
+																				<a href="#" id="keep">
+																								<img src="keep.png" class="keep" alt="keep" />
+																								<p>Keep</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="jamboard.png" class="jamboard" alt="jamboard" />
+																								<p>Jamboard</p>
+													 						</a>
+													 						
+													 						<a href="#" id="classroom">
+																								<img src="classroom.png" class="classroom" alt="Google Sala de Aula" />
+																								<p class="text_oculto">Google Sala de Aula</p>
+													 						</a>
+																</div>
+																</div>
+																
+																<div class="parte2">
+																<div class="linhas">
+																				<a href="#" id="colecoes">
+																								<img src="colecoes.png" class="colecoes" alt="coleções" />
+																								<p>Coleções</p>
+																				</a>
+																				
+																				<a href="#">
+																								<img src="google_arts_culture.png" alt="art & culture" />
+																								<p class="text_oculto">Google Arts & Culture</p>
+													 						</a>
+													 						
+													 						<a href="#" id="ads">
+																								<img src="google_ads.png" alt="ads" />
+																								<p>Google Ads</p>
+													 						</a>
+																</div>
+																</div>
+																
+																<div class="parte2">
+																<div class="linhas">
+																				<a href="#" id="links">
+																								<img src="podcasts.png" alt="podcasts" />
+																								<p>Podcasts</p>
+																				</a>
+																				
+																				<a href="#" id="one">
+																								<img src="google_one.png" alt="one" />
+																								<p>Google One</p>
+													 						</a>
+													 						
+													 						<a href="#" id="links">
+																								<img src="viagens.png" class="viagens" alt="viagens" />
+																								<p>Viagens</p>
+													 						</a>
+																</div>
+																</div>
+																
+																<div class="parte2">
+																<div class="linhas">
+																				<a href="#">
+																								<img src="google_forms.png" class="forms" alt="formulários" />
+																								<p>Formulários</p>
+																				</a>
+																</div>
+																</div>
+																
+												<div class="button">
+																<a href="#" class="button_mais">Mais do Gclone</a>
+												</div>
+								  </section>
+								</section>
+								
+								
+								<section class="container_login">
+												<div class="div1">
+												    <span class="foto_conta">J</span>
+												    <div class="mini_ball">
+																   	<span class="material-icons-outlined" id="cam" onclick="alterarFoto()">
+																								photo_camera
+																				</span>
+												    </div>
+												</div>
+												
+												<p class="nome">João Matheus</p>
+												<p class="email">joaomatheus11@gmail.com</p>
+												
+												<div class="button_gerenciar">
+																<a href="#">
+																				Gerenciar sua Conta do Gclone
+																</a>
+												</div>
+												
+												<div class="user1">
+																<a href="#">
+																<span class="user">J</span>
+																<p class="nome2">João Matheus</p>
+																<p class="email2">joaomatheus78990@gmail.com</p>
+																</a>
+												</div>
+												
+												<div class="user2">
+																<a href="#">
+																<span class="user">J</span>
+																<p class="nome2">João Matheus</p>
+																<p class="email2">joaomatheus65982@gmail.com</p>
+																</a>
+												</div>
+							     <div class="user3">
+							     				<a href="#">
+																<span class="user">J</span>
+																<p class="nome2">João Matheus</p>
+																<p class="email2">joaomatheus.2862@gmail.com</p>
+																</a>
+												</div>
+												
+												<div class="gerenciar">
+																<a href="#">
+																				Gerenciar contas
+																</a>
+												</div>
+												<div class="linha">
+																<a href="#" class="p1">
+																				Política de Privacidade
+																</a>
+																<span></span>
+																<a href="#" class="p2">
+																				Termos de Serviço
+																</a>
+												</div>
+								</section>
+				</header>
+				
+				<main>
+								
+								<div class="container_img">
+												<img src="logo-gclone-imagens.png" class="img_logo" alt="Gclone_logo" />
+								</div>
+
+								<div id="container">
+												<button id="button_imagens">
+																<i class="fas fa-search"></i>
+																<input type="search" class="input_imagens" id="input_imagens" onclick="complete()" onmouseleave="fecharComplete()" />
+												</button>
+								</div>
+								<div id="complete"></div>
+								
+								
+								<div class="fundo_trocar_foto" id="trocar_foto">
+												<section class="container_trocar_foto">
+																
+																<div class="barra_opcoes">
+																				<span class="material-icons-outlined" onclick="fecharAlterarFoto()">
+																				    close
+																				</span>
+																				<span class="material-icons-outlined opcoes">
+																								more_vert
+																				</span>
+																</div>
+																
+																<div class="informacoes">
+																				<label for="file" class="circle_file">
+																								J
+																				</label>
+																				<input type="file" id="file" />
+																
+																				<p class="titulo">Foto do perfil</p>
+																				<p class="descricao">Uma foto ajuda as pessoas a reconhecerem você e permite que você saiba quando a conta está conectada</p>
+																    
+																    <span class="material-icons-outlined" id="icone">
+																								people_alt
+																				</span>
+																				<p class="descricao2">
+																								Visível nos Serviços do Gclone.
+																								<a href="#">Saiba mais</a>
+																				</p>
+																</div>
+																
+																<label class="button_file" for="file">
+																				<span class="material-icons-outlined" id="cam_adiciona">
+																								add_a_photo
+																				</span>
+																				Adicionar foto do perfil
+																</label>
+												<section class="opcoes_foto">
+																<a href="#">Fotos de perfil antigas</a>
+																<a href="#">Ajuda</a>
+																<a href="#">Enviar comentários</a>
+												</section>
+												</section>
+								</div>
+								
+								
+								<div class="fundo_feedback" id="feedback">
+												<section class="container_feedback">
+																<div class="barra_buttons">
+																				<a href="#">
+																								<span class="material-icons-outlined" onclick="fecharFeedback()">
+																												close
+																								</span>
+																				</a>
+																				
+																				<p>Send feedback </p>
+																				
+																				<a href="#" class="icon_send">
+																								<span class="material-icons">
+																												send
+																								</span>
+																				</a>
+																</div>
+																
+																<textarea class="area_texto" placeholder="Have feedback? We'd love to hear it, but please don't share sensitive information. Have questions? Try help or support."></textarea>
+																
+																<div class="seleciona">
+																				<label class="container_checkbox">
+																								<input type="checkbox" />
+																								<span class="checkmark"></span>
+																								Include screenshot
+																				</label>
+																</div>
+																
+																<div class="informacao">
+																				<p>Some 
+																								<a href="#">account and system information</a> 
+																								may be sent to Google. We will u</p>
+																								<p>se it info to fix problems and improve our	services, subject to our 
+																								<a href="#">Privacy Policy</a>	and 
+																								<a href="#">Terms of Service</a>. 
+																								We may email you for more information 
+																								<p>or updates. Go to 
+																								<a href="#">Legal Help</a> 
+																								to ask for content changes for legal reasons.
+																								</p>
+																</div>
+																
+																<div id="informacao">
+																				<p>Some <a href="#">account and system information</a>
+																			 may be sent to Google. We will use it info to fix 
+																			 problems and improve our services, subject to our 
+																			 <a href="#">Privacy Policy</a> and
+																			 <a href="#">Terms of Service</a>. 
+																			 We may email you for more information or updates. 
+																			 Go to <a href="#">Legal Help</a> 
+																			 to ask for content changes for legal reasons.</p>
+																</div>
+												</section>
+								</div>
+				</main>
+				
+				<footer id="id_footer">
+								<p>Brasil</p>
+								<hr>
+								<section>
+												<div>
+												<a href="#">Configurações</a>
+												<a href="#">Privacidade</a>
+												<a href="#">Termos</a>
+												</div>
+												<div class="linha2">
+												<a href="#">Publicidade</a>
+												<a href="#">Negócios</a>
+												<a href="#">Sobre</a>
+												</div>
+								</section>
+				</footer>
+				
+</body>
+</html>
