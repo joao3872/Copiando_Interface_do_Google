@@ -1,540 +1,540 @@
 .topnav {
-				background: var(--white);
-				overflow: hidden;
+    background: var(--white);
+    overflow: hidden;
 }
 
 .topnav span {
     float: left;
-				background: var(--transparent);
-				padding: 13px;
-				color: var(--grey);
-				margin: 0 7px 0 5px;
+    background: var(--transparent);
+    padding: 13px;
+    color: var(--grey);
+    margin: 0 7px 0 5px;
 }
 
 .topnav a {
-				float: left;
-				color: var(--grey);
-				text-align: center;
-				padding: 15px 10px 15px 10px;
-				font: normal 8pt Arial;
-				margin-right: 5px;
+    float: left;
+    color: var(--grey);
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+    font: normal 8pt Arial;
+    margin-right: 5px;
 }
 
 .topnav .active {
-				color: var(--blue-claro);
-				border-bottom: 2px solid var(--blue-claro);
+    color: var(--blue-claro);
+    border-bottom: 2px solid var(--blue-claro);
 }
 
 .topnav .right_menu {
-				display: flex;
-				float: right;
-				height: 46px;
+    display: flex;
+    float: right;
+    height: 46px;
 }
 
 .topnav .right_menu #apps {
-				margin: 3px 14px 0 0;
-				padding: 7px 3px 3px 7px;
-				width: 40px;
-				height: 40px;
+    margin: 3px 14px 0 0;
+    padding: 7px 3px 3px 7px;
+    width: 40px;
+    height: 40px;
 }
 
 .topnav .right_menu #apps:hover {
-				background: rgba(138, 138, 138, .2);
-				border-radius: 25px;
+    background: rgba(138, 138, 138, .2);
+    border-radius: 25px;
 }
 
 .topnav .right_menu .fundo_conta {
-				width: 40px;
-				height: 40px;
-				padding: 1px 1px 1px 1px;
-				margin: 3px 10px 0 0;
+    width: 40px;
+    height: 40px;
+    padding: 1px 1px 1px 1px;
+    margin: 3px 10px 0 0;
 }
 
 .topnav .right_menu .fundo_conta:hover {
-				background: rgba(138, 138, 138, .4);
-				border-radius: 25px;
+    background: rgba(138, 138, 138, .4);
+    border-radius: 25px;
 }
 
 .topnav .right_menu .conta {
-				width: 33px;
-				height: 33px;
-				color: var(--white);
-				text-align: center;
-				padding: 6px 6px 6px 6px;
-				border-radius: 25px;
-				background: var(--purple-escuro);
-				margin: 2.5px 12px 0 2.5px;
+    width: 33px;
+    height: 33px;
+    color: var(--white);
+    text-align: center;
+    padding: 6px 6px 6px 6px;
+    border-radius: 25px;
+    background: var(--purple-escuro);
+    margin: 2.5px 12px 0 2.5px;
 }
 
 .fundo_sidenav {
-				background: rgba(0, 0, 0, .5);
-				position: fixed;
-				width: 0;
-				height: 100%;
-				z-index: 1;
-				top: 0;
-				left: 0;
-				overflow-x: hidden;
-				transition: .5s;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    width: 0;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: .5s;
 }
 
 .fundo_sidenav .invisivel {
-				position: relative;
-				float: right;
-				width: 145px;
-				height: 100%;
+    position: relative;
+    float: right;
+    width: 145px;
+    height: 100%;
 }
 
 .fundo_sidenav .sidenav {
-				background: var(--white);
-				width: 265px;
-				height: 100%;
+    background: var(--white);
+    width: 265px;
+    height: 100%;
 }
 
 .fundo_sidenav .sidenav .logo {
-				width: 100px;
-				margin: 10px 0 0 10px;
+    width: 100px;
+    margin: 10px 0 0 10px;
 }
 
 .fundo_sidenav .sidenav a {
-				display: flex;
+    display: flex;
 }
 
 .fundo_sidenav .sidenav a span {
-				margin: 21px 0 0 12px;
-				color: var(--grey-escuro);
+    margin: 21px 0 0 12px;
+    color: var(--grey-escuro);
 }
 
 .fundo_sidenav .sidenav a .text_link {
-				margin: 25px 0 0 14px;
-				color: var(--grey);
+    margin: 25px 0 0 14px;
+    color: var(--grey);
 }
 
 .fundo_sidenav .sidenav hr {
-				background: rgba(138, 138, 138, .4);
+    background: rgba(138, 138, 138, .4);
     height: 1px;
     margin-top: 26px;
     width: 100%;
 }
 
 .fundo_sidenav .sidenav a .text_link2 {
-				margin: 7px 0 0 14px;
-				color: var(--grey);
+    margin: 7px 0 0 14px;
+    color: var(--grey);
 }
 
 .fundo_sidenav .sidenav a .text_link3 {
-				margin: 16px 0 0 14px;
-				color: var(--grey);
+    margin: 16px 0 0 14px;
+    color: var(--grey);
 }
 
 .fundo_sidenav .sidenav a .img2 {
-				width: 32px;
-				height: 30px;
-				margin: -2px 0 0 -3px;
+    width: 32px;
+    height: 30px;
+    margin: -2px 0 0 -3px;
 }
 
 .fundo_sidenav .sidenav a .img3 {
-				margin: -10px 0 0 1px;
-				width: 26px;
-				height: 26px;
+    margin: -10px 0 0 1px;
+    width: 26px;
+    height: 26px;
 }
 
 
 
 .container_apps {
-				position: absolute;
-				display: none;
-				background: var(--white);
-				box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
-				margin-top: 10px;				
-				right: 10px;
-				width: 335px;
-				height: 440px;
-				border-radius: 8px;
+    position: absolute;
+    display: none;
+    background: var(--white);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
+    margin-top: 10px;				
+    right: 10px;
+    width: 335px;
+    height: 440px;
+    border-radius: 8px;
 }
 
 .container_apps.abrir_apps {
-				display: block;
+    display: block;
 }
 
 .fundo_scroll {
-				background: var(--white);
-				width: 330px;
-				height: 440px;
-				overflow-y: scroll;
-				border-radius: 8px;
-				padding-top: 10px;
+    background: var(--white);
+    width: 330px;
+    height: 440px;
+    overflow-y: scroll;
+    border-radius: 8px;
+    padding-top: 10px;
 }
 
 .fundo_scroll::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 
 .fundo_scroll::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px var(--transparent); 
-  border-radius: 10px;
-  margin: 5px;
+    box-shadow: inset 0 0 5px var(--transparent); 
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .fundo_scroll::-webkit-scrollbar-thumb {
-  background: rgba(138, 138, 138, .3);
-  border-radius: 10px;
+    background: rgba(138, 138, 138, .3);
+    border-radius: 10px;
 }
 
 
 .container_apps .parte1 {
-				display: block;
-				width: 98%;
-				margin-left: 3px;
-				padding: 6px 10px 2px 10px;
+    display: block;
+    width: 98%;
+    margin-left: 3px;
+    padding: 6px 10px 2px 10px;
 }
 
 .container_apps .parte1 .imagens {
-				display: flex;
-				margin-bottom: -4.6px;
+    display: flex;
+    margin-bottom: -4.6px;
 }
 
 .container_apps .parte1 .imagens a {
-				margin: 0 1px 10px 0;
-				padding: 10px 10px 5px 10px;
-				text-align: center;
-				font: normal 10pt Arial;
-				color: var(--black);
+    margin: 0 1px 10px 0;
+    padding: 10px 10px 5px 10px;
+    text-align: center;
+    font: normal 10pt Arial;
+    color: var(--black);
 }
 
 .container_apps .parte1 .imagens a:hover {
-				background: rgba(0, 0, 255, .1);
-				border-radius: 8px;
+    background: rgba(0, 0, 255, .1);
+    border-radius: 8px;
 }
 
 .container_apps .parte1 .imagens .conta {
-				width: 50px;
-				height: 45px;
-				margin: -2px 15px 5px 15px;
+    width: 50px;
+    height: 45px;
+    margin: -2px 15px 5px 15px;
 }
 
 .container_apps .parte1 .imagens img {
-				width: 40px;
-				height: 40px;
-				margin: 0 20px 8px 20px;
+    width: 40px;
+    height: 40px;
+    margin: 0 20px 8px 20px;
 }
 
 .container_apps .parte1 .imagens .youtube {
-				width: 42px;
-				height: 30px;
-				margin: 5px 16px 12px 16px;
+    width: 42px;
+    height: 30px;
+    margin: 5px 16px 12px 16px;
 }
 
 .container_apps .parte1 .imagens .play {
-				width: 45px;
-				height: 45px;
-				margin: -2px 20px 5px 20px;
+    width: 45px;
+    height: 45px;
+    margin: -2px 20px 5px 20px;
 }
 
 .container_apps .parte1 .imagens .gmail {
-				width: 38px;
-				height: 30px;
-				margin: 1px 21px 15px 21px;
+    width: 38px;
+    height: 30px;
+    margin: 1px 21px 15px 21px;
 }
 
 .container_apps .parte1 .imagens .meet {
-				width: 40px;
-				height: 30px;
-				margin: 1px 20px 15px 20px;
+    width: 40px;
+    height: 30px;
+    margin: 1px 20px 15px 20px;
 }
 
 .container_apps .parte1 .imagens .drive {
-				width: 35px;
-				height: 32px;
-				margin: 5px 22px 12px 22px;
+    width: 35px;
+    height: 32px;
+    margin: 5px 22px 12px 22px;
 }
 
 .container_apps .parte1 .imagens .shopping {
-				width: 80px;
-				height: 45px;
-				margin: -2px 1px 5px 1px;
+    width: 80px;
+    height: 45px;
+    margin: -2px 1px 5px 1px;
 }
 
 .container_apps hr {
     background: rgba(138, 138, 138, .3);
-				height: 1px;
-				width: 98%;
-			 margin: 8px 0 15px 0;
+    height: 1px;
+    width: 98%;
+    margin: 8px 0 15px 0;
 }
 
 .container_apps .parte2 {
-				display: block;
-				margin-left: 3px;
-				width: 98%;
-				padding: 6px 10px 2px 10px;
+    display: block;
+    margin-left: 3px;
+    width: 98%;
+    padding: 6px 10px 2px 10px;
 }
 
 .container_apps .parte2 .linhas {
-				display: flex;
-				margin-bottom: -4px;
+    display: flex;
+    margin-bottom: -4px;
 }
 
 .container_apps .parte2 .linhas a {
-				margin: 0 29px 10px 0;
-				padding: 10px 4px 5px 4px;
-				font: normal 10pt Arial;
-				color: var(--black);
-				text-align: center;
+    margin: 0 29px 10px 0;
+    padding: 10px 4px 5px 4px;
+    font: normal 10pt Arial;
+    color: var(--black);
+    text-align: center;
 }
 
 .container_apps .parte2 .linhas a:hover {
-				border-radius: 8px;
-				background: rgba(0, 0, 255, .1);
+    border-radius: 8px;
+    background: rgba(0, 0, 255, .1);
 }
 
 .container_apps p.text_oculto {
     white-space: nowrap;
-				width: 79px;
-				overflow: hidden;
+    width: 79px;
+    overflow: hidden;
     text-overflow: ellipsis;
     text-align: center;
 }
 
 .container_apps p.text_oculto:hover {
     white-space: normal;
-				overflow: visible;
+    overflow: visible;
 }
 
 .container_apps .parte2 .linhas img {
-				width: 40px;
-				height: 40px;
-				margin: 0 10px 8px 10px;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 8px 10px;
 }
 
 .container_apps .parte2 .linhas .planilhas {
-				width: 30px;
-				height: 45px;
-				margin: -4px 10px 8px 10px;
+    width: 30px;
+    height: 45px;
+    margin: -4px 10px 8px 10px;
 }
 
 .container_apps .parte2 .linhas .apresentacao {
-				width: 55px;
-				height: 50px;
-				margin: -4px 10px 4px 10px;
+    width: 55px;
+    height: 50px;
+    margin: -4px 10px 4px 10px;
 }
 
 .container_apps .parte2 .linhas a#livros {
-				margin: 0 9px 10px 0;
-				padding: 10px 10px 5px 10px;
-				font: normal 10pt Arial;
-				color: var(--black);
-				text-align: center;
+    margin: 0 9px 10px 0;
+    padding: 10px 10px 5px 10px;
+    font: normal 10pt Arial;
+    color: var(--black);
+    text-align: center;
 }
 
 .container_apps .parte2 .linhas a#livros img {
-				width: 95px;
-				height: 40px;
-				margin: 1px -10px 7px -10px;
+    width: 95px;
+    height: 40px;
+    margin: 1px -10px 7px -10px;
 }
 
 .container_apps .parte2 .linhas .blogger {
     width: 65px;
-				height: 40px;
+    height: 40px;
 }
 
 .container_apps .parte2 .linhas a#keep {
-				margin: 0 8px 10px 0;
-				padding: 10px 20px 5px 20px;
-				font: normal 10pt Arial;
-				color: var(--black);
-				text-align: center;
+    margin: 0 8px 10px 0;
+    padding: 10px 20px 5px 20px;
+    font: normal 10pt Arial;
+    color: var(--black);
+    text-align: center;
 }
 
 .container_apps .parte2 .linhas .keep {
-				width: 28px;
-				height: 35px;
-				margin: 4px 10px 8px 10px;
+    width: 28px;
+    height: 35px;
+    margin: 4px 10px 8px 10px;
 }
 
 .container_apps .parte2 .linhas .jamboard {
-				width: 70px;
-				height: 40px;
+    width: 70px;
+    height: 40px;
 }
 
 .container_apps .parte2 .linhas a#classroom {
-				margin: 0 0 10px -12px;
-				padding: 10px 4px 5px 4px;
-				font: normal 10pt Arial;
-				color: var(--black);
-				text-align: center;
+     margin: 0 0 10px -12px;
+     padding: 10px 4px 5px 4px;
+     font: normal 10pt Arial;
+     color: var(--black);
+     text-align: center;
 }
 
 .container_apps .parte2 .linhas .classroom {
-				width: 40px;
-				height: 35px;
-				margin: 4px 10px 9px 10px;
+    width: 40px;
+    height: 35px;
+    margin: 4px 10px 9px 10px;
 }
 
 .container_apps .parte2 .linhas a#colecoes {
-				margin: 0 10px 10px 0;
-				padding: 10px 15px 5px 15px;
-				font: normal 10pt Arial;
-				color: var(--black);
-				white-space: nowrap;
+    margin: 0 10px 10px 0;
+    padding: 10px 15px 5px 15px;
+    font: normal 10pt Arial;
+    color: var(--black);
+    white-space: nowrap;
 }
 
 .container_apps .parte2 .linhas .colecoes {
-				width: 40px;
-				height: 40px;
-				margin: 1px 10px 8px 10px;
+    width: 40px;
+    height: 40px;
+    margin: 1px 10px 8px 10px;
 }
 
 .container_apps .parte2 .linhas a#ads {
-				margin: 0 10px 10px -15px;
-				padding: 10px 10px 5px 10px;
-				font: normal 10pt Arial;
-				color: var(--black);
-				white-space: nowrap;
+    margin: 0 10px 10px -15px;
+    padding: 10px 10px 5px 10px;
+    font: normal 10pt Arial;
+    color: var(--black);
+    white-space: nowrap;
 }
 
 .container_apps .parte2 .linhas a#links {
-				margin: 0 10px 10px 0;
-				padding: 10px 15px 5px 15px;
-				font: normal 10pt Arial;
-				color: var(--black);
-				white-space: nowrap;
+    margin: 0 10px 10px 0;
+    padding: 10px 15px 5px 15px;
+    font: normal 10pt Arial;
+    color: var(--black);
+    white-space: nowrap;
 }
 
 .container_apps .parte2 .linhas a#one {
-				margin: 0 10px 10px -5px;
-				padding: 10px 10px 5px 10px;
-				font: normal 10pt Arial;
-				color: var(--black);
-				white-space: nowrap;
+    margin: 0 10px 10px -5px;
+    padding: 10px 10px 5px 10px;
+    font: normal 10pt Arial;
+    color: var(--black);
+    white-space: nowrap;
 }
 
 .container_apps .parte2 .linhas .viagens {
-				width: 45px;
-				height: 45px;
-				margin: -2px 10px 5px 10px;
+    width: 45px;
+    height: 45px;
+    margin: -2px 10px 5px 10px;
 }
 
 .container_apps .parte2 .linhas .forms {
-				width: 30px;
-				height: 40px;
-				margin: -2px 10px 5px 10px;
+    width: 30px;
+    height: 40px;
+    margin: -2px 10px 5px 10px;
 }
 
 .container_apps .button {
-				width: 100%;
-				display: flex;
-				margin: 20px 0 20px 0;
+    width: 100%;
+    display: flex;
+    margin: 20px 0 20px 0;
 }
 
 .container_apps .button .button_mais {
-				background: var(--transparent);
-				margin: auto;
-				border-radius: 8px;
-				padding: 10px 20px 10px 20px;
-				border: 1px solid rgba(138, 138, 138, .3);
-				font: normal 10pt Arial;
-				color: var(--blue-escuro);
+    background: var(--transparent);
+    margin: auto;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid rgba(138, 138, 138, .3);
+    font: normal 10pt Arial;
+    color: var(--blue-escuro);
 }
 
 	
 				
 .container_login {
     position: absolute;
-				background: var(--white);
-				display: none;
-				box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
-				margin-top: 10px;
-				right: 10px;
-				width: 85%;
-				border-radius: 8px;
+    background: var(--white);
+    display: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
+    margin-top: 10px;
+    right: 10px;
+    width: 85%;
+    border-radius: 8px;
 }
 
 .container_login.abrir_login {
-				display: block;
+    display: block;
 }
 
 .container_login .div1 {
-				display: flex;
-				width: 23%;
-				margin: auto;
-				padding: 1px;
-				margin-top: 12px;
+    display: flex;
+    width: 23%;
+    margin: auto;
+    padding: 1px;
+    margin-top: 12px;
 }
 
 .container_login .div1 .foto_conta {
     position: relative;
-				width: 60px;
-				top: -10px;
-				clip-path: circle();
-				background: var(--purple-escuro);
-				color: var(--white);
-				font-size: 40px;
-				padding: 30px 50px 30px 30px;
-				text-align: center;
-				margin: auto;
-				margin: 0 0 -8px 2px;
+    width: 60px;
+    top: -10px;
+    clip-path: circle();
+    background: var(--purple-escuro);
+    color: var(--white);
+    font-size: 40px;
+    padding: 30px 50px 30px 30px;
+    text-align: center;
+    margin: auto;
+    margin: 0 0 -8px 2px;
 }
 
 .container_login .div1 .mini_ball {
-				background: var(--white);
-				width: 36px;
-				height: 36px;
-				border-radius: 20px;
-				padding: 4px 4px 4px 4px;
-				margin: 56px 1px 0 -25px;
-				position: relative;
+    background: var(--white);
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    padding: 4px 4px 4px 4px;
+    margin: 56px 1px 0 -25px;
+    position: relative;
 }
 
 .container_login .div1 .mini_ball #cam {
-				width: 28px;
-				height: 28px;
-				box-shadow: 3px 3px 5px rgba(0, 0, 0, .6);
-				border-radius: 20px;
-				padding: 4px 4px 5px 3px;
-				font-size: 20px;
-				background: var(--white);
-				color: var(--grey);
+    width: 28px;
+    height: 28px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .6);
+    border-radius: 20px;
+    padding: 4px 4px 5px 3px;
+    font-size: 20px;
+    background: var(--white);
+    color: var(--grey);
 }
 
 .container_login .div1 .mini_ball #cam:hover {
-				color: var(--blue-claro);
-				background: rgba(79, 120, 236, .1);
+    color: var(--blue-claro);
+    background: rgba(79, 120, 236, .1);
 }
 
 .container_login .nome {
-				text-align: center;
-				font: normal 13pt Arial;
+    text-align: center;
+    font: normal 13pt Arial;
 }
 
 .container_login .email {
- 			text-align: center;
- 			color: var(--grey);
- 			font-size: 14px;
-   	margin-top: 3px;
+     text-align: center;
+     color: var(--grey);
+     font-size: 14px;
+     margin-top: 3px;
 }
  
 .container_login .button_gerenciar {
-				display: flex;
- 			margin: 18px 0 14px 0;
- 			width: 100%;
- 			border-bottom: 1px solid rgba(138, 138, 138, .3);
+    display: flex;
+    margin: 18px 0 14px 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(138, 138, 138, .3);
  }
  
 .container_login .button_gerenciar a {
     background: var(--transparent);
- 			padding: 8px 16px 8px 16px;
- 			border: 1px solid rgba(138, 138, 138, .3);
- 			border-radius: 20px;
- 			font: normal 11pt Arial;
- 			color: var(--black);
- 			margin: auto;
- 			margin-bottom: 22px;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid rgba(138, 138, 138, .3);
+    border-radius: 20px;
+    font: normal 11pt Arial;
+    color: var(--black);
+    margin: auto;
+    margin-bottom: 22px;
 }
 
 .container_login .user1 {
-				width: 100%;
-				padding: 1px;
-				margin-bottom: 20px;
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 20px;
 }
 
 .container_login .user2 {
