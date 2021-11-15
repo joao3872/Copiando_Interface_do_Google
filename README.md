@@ -1,4 +1,4 @@
-# Copiando Interface do Google
+# Copiando a Interface do Google
 
 ### Sobre o Gclone:
 
