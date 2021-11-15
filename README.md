@@ -8,7 +8,7 @@
 
 ### Versão Mobile:
 
-<img src="Gclone/imagens/mobile.gif" height="500" width="260" />
+<img src="Gclone/imagens/mobile.gif" height="500px" width="260px" />
 
 ### Landscape:
 
