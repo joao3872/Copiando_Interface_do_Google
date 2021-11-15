@@ -8,8 +8,8 @@
 
 ### Versão Mobile:
 
-<img src="imagens/mobile.gif" />
+<img src="Gclone/imagens/mobile.gif" />
 
 ### Landscape:
 
-<img src="imagens/landscape.gif" />
+<img src="Gclone/imagens/landscape.gif" />
