@@ -8,4 +8,8 @@
 
 ### Versão Mobile:
 
+<img src="imagens/mobile.gif" />
+
 ### Landscape:
+
+<img src="imagens/landscape.gif" />
